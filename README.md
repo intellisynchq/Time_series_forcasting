@@ -1,4 +1,4 @@
-# Time_series_forcasting
+# Time series forcasting
 
 VistaMart Collective is a regional chain of retail stores offering a wide range of consumer goods, from household essentials to seasonal items. To support inventory planning, budgeting, and strategic decision-making, this task involves developing a time series forecasting model that predicts future sales across the VistaMart network.
 
@@ -6,8 +6,9 @@ Using historical sales data collected from multiple store locations over time, t
 
 Key objectives include:
 - Cleaning and preprocessing time series data from various store locations.
+- Feature engineering: lag features, moving averages, rolling statistics.
 - Exploring trends, seasonal cycles, and anomalies in historical sales.
-- Building and evaluating forecasting models (e.g., ARIMA, Prophet, or machine learning-based approaches).
+- Building and evaluating forecasting models (e.g., ARIMA, Prophet, XGBoost or machine learning-based approaches).
 
 The final model will serve as a foundation for data-driven decision-making at VistaMart Collective, helping the business anticipate demand.
 
@@ -26,6 +27,19 @@ A brief explanation of columns:
 - Assortment: describes an assortment level (small, medium or large)
 - CompetitionDistance - distance in meters to the nearest competitor store
 - CompetitionOpenSince[Month/Year] - gives the year and month of the time the nearest competitor was opened
-- Promo - indicates whether a store is running a promo
-- PromoSince[Year/Week] - describes the year and week when the store started participating in Promo
-- PromoInterval - describes the consecutive intervals Promo is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+- Promo: indicates whether a store is running a promo
+- PromoSince[Year/Week]: describes the year and week when the store started participating in Promo
+- PromoInterval: describes the consecutive intervals Promo is started, naming the months the promotion is started anew. E.g. "Feb,May,Aug,Nov" means each round starts in February, May, August, November of any given year for that store
+
+## What the Reviewer Will Look For
+- Logical, clean approach to problem-solving.
+- Clear EDA and visual storytelling.
+- Justified modeling choices with error metrics.
+- Thoughtful feature engineering.
+- Clear documentation and reproducibility (README, Jupyter notebooks or scripts)
+
+## Deliverables
+ A GitHub repo with:
+- Code (Jupyter notebooks or .py files)
+- Dataset or link to it
+- README with project overview and findings
