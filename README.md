@@ -1,4 +1,4 @@
-# Time series forcasting
+# Time series forecasting
 
 VistaMart Collective is a regional chain of retail stores offering a wide range of consumer goods, from household essentials to seasonal items. To support inventory planning, budgeting, and strategic decision-making, this task involves developing a time series forecasting model that predicts future sales across the VistaMart network.
 
